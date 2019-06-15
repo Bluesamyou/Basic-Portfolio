@@ -64,6 +64,11 @@ ul {
     padding: 20px 10px;
     text-decoration: none;
   }
+
+  li:hover,li a:hover {
+      background-color: #4aaaa5;
+      color: white; 
+  }
   
 
   h2 {
@@ -115,8 +120,15 @@ button {
     background-color: #4aaaa5;
     color: white; 
     padding: 5px 20px; 
-    border: none;
+    border: 2px solid #4aaaa5;
     margin-bottom: 25px;
+}
+
+button:hover {
+    background-color: white;
+    border: 2px solid #4aaaa5; 
+    color: #4aaaa5;
+    padding: 5px 20px; 
 }
 
 .card{
